@@ -1,0 +1,52 @@
+/*Author: Joseph Ngo Date:8/12/2012 File Name: home.css*/
+body {
+	
+	margin: 0 auto;
+	background: url("back.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#header {
+	
+	width: 100%;	
+	float: left;
+	background-color: #efefef;
+
+}
+
+#header h1 {
+	font-family: Helvetica;
+	font-size: 36px;
+}
+
+#contact {
+	text-align: right;
+	float: right;
+}
+
+.column1of2 {
+	
+	float: left;
+	margin: 10px;
+	background-color: gray;
+	font-family: Helvetica;
+	font-size: 20px;
+	text-align: left;
+	text-indent: 5px;
+	
+	
+}
+
+.column2of2  {
+	
+	float: left;
+	margin: 10px;
+	background-color: purple;
+	
+}
+
+p {
+	border: 2px black;
+}
