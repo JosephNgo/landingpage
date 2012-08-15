@@ -5,6 +5,7 @@ body {
 	background: url("back.jpg"); 
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-color: black;
 }
 
 
@@ -12,8 +13,9 @@ body {
 	
 	width: 100%;	
 	float: left;
-	background-color: #efefef;
-
+	background-color: purple;
+	color: white;
+	padding: 15px;
 }
 
 #header h1 {
@@ -21,32 +23,29 @@ body {
 	font-size: 36px;
 }
 
-#contact {
-	text-align: right;
-	float: right;
+#links {
+	text-align: center;
+	float: center;
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	color: black;
 }
 
-.column1of2 {
+#links a:link {text-decoration: none}
+#links a:visted {text-decoration: none}
+#links a:hover {color: white; background-color: black;}
+
+#about {
 	
 	float: left;
 	margin: 10px;
-	background-color: gray;
+	background-color: white;
 	font-family: Helvetica;
 	font-size: 20px;
 	text-align: left;
 	text-indent: 5px;
+	width: 400px;
+	padding: 10px;
 	
-	
-}
-
-.column2of2  {
-	
-	float: left;
-	margin: 10px;
-	background-color: purple;
-	
-}
-
-p {
-	border: 2px black;
 }
